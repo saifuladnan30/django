@@ -7,4 +7,5 @@ urlpatterns = [
     path('', views.home),
     path('contact/', views.contact),
     path('myapp/', include("myapp.urls")),
+    # path('myapp2/', include("myapp2.urls")),
 ]
